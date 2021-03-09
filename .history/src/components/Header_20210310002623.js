@@ -7,7 +7,7 @@ export default function Header() {
 
             <p
                 className="text-light opacity-3">
-                An example maded by Create-React-App.
+                An example made by Create-React-App.
             </p>
             <div className="flex mt-6 justify-center">
                 <hr className="hr-header-line rounded" />
