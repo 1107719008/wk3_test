@@ -82,16 +82,11 @@
 
 }
 .navItem{
-  cursor:pointer;
 color: white;
 margin-top: 2rem;
 margin-left: 3rem;
 opacity: 0.6;
 transition: opacity .25s linear;
-}
-.navItem:hover{
-  color:white;
-  opacity: 1;
 }
 .grid-container{
   display: grid;
@@ -131,12 +126,7 @@ transition: opacity .25s linear;
     grid-template-rows: auto 1fr 6rem;
     grid-template-columns: 1fr;
   }
- .navBar{
-   display: none;
-   grid-area: main;
-   flex-direction: column;
-   position: relative;
- }
+ 
   .navItem{
     margin:0;
   }
